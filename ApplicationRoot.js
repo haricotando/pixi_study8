@@ -10,6 +10,7 @@ export class ApplicationRoot extends PIXI.Container {
         this._debug = debug;
         this.loadAssets();
         
+        
         if(this._debug){
             this.debugAssets = this.addChild(new PIXI.Container());
             this.debugAssets.zIndex = 1000;
